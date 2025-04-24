@@ -12,9 +12,9 @@ payload = json.dumps({
     "n": 1,
     "max_tokens": 4096,
     #"repetition_penalty": 1.0,
-    "temperature": temperature,
-    "top_p": top_p,
-    "top_k": top_k
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "top_k": 1
 })
 headers = {
     'Content-Type': 'application/json',
