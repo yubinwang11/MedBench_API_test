@@ -3,6 +3,7 @@
 url = "https://apigw-cn-south02.huawei.com/api/v1/chat/completions"
 data = {
         "content":problem,
+        "model":model_name,
         "top_n_sigma": -1, 
         "top_p": 1.0,
         "top_k": 1,
